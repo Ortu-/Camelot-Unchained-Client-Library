@@ -30,6 +30,11 @@ export function postPlotPermissions(query: Object) {
   return RestClientLegacy.postJSON('plot/modifypermissions', true, false, query);
 }
 
+// TODO update this to use new Rest Client
+export function postReleasePlot(query: Object) {
+    return RestClientLegacy.postJSON('plot/releaseplot', true, false, query);
+}
+
 // Game Data
 export * from './resources/GameData';
 
