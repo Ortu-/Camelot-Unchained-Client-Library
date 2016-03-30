@@ -9,6 +9,7 @@ export declare function getControlGame(includeControlPoints?: boolean): Promise<
 export declare function getAllPlayers(): Promise<any>;
 export declare function postPlotPermissions(query: Object): Promise<any>;
 export * from './resources/ControlGame';
+export declare function postReleasePlot(query: Object): Promise<any>;
 export * from './resources/GameData';
 export * from './resources/Servers';
 export * from './resources/Characters';
