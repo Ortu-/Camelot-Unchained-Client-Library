@@ -20,5 +20,6 @@ declare enum race {
     HUMANMALEV = 15,
     HUMANMALEA = 16,
     HUMANMALET = 17,
+    PICT = 18,
 }
 export default race;
