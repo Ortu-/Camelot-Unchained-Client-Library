@@ -38,6 +38,19 @@ export function postReleasePlot(query: Object) {
     return RestClientLegacy.postJSON('plot/releaseplot', true, false, query);
 }
 
+export function postRemoveQueuedBlueprint(query: Object) {
+    return RestClientLegacy.postJSON('plot/removequeuedblueprint', true, false, query);
+}
+
+export function postReorderBuildQueue(query: Object)
+{
+    return RestClientLegacy.postJSON('plot/reorderqueue', true, false, query);
+}
+
+export function postGetQueueStatus(query: Object) {
+    return RestClientLegacy.postJSON('plot/getqueuestatus', true, false, query);
+}
+
 // Game Data
 export * from './resources/GameData';
 

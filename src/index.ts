@@ -46,7 +46,6 @@ import stores from './stores/stores';
 import components from './components/components';
 
 // RestAPI
-import {postPlotPermissions} from './restapi/RestAPI';
 import * as restAPI from './restapi/RestAPI';
 
 export {
@@ -93,6 +92,5 @@ export {
   components,
 
   // RestAPI
-  postPlotPermissions, // TODO use restAPI below instead
   restAPI,
 }
