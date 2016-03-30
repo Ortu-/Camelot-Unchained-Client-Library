@@ -30,6 +30,9 @@ export function postPlotPermissions(query: Object) {
   return RestClientLegacy.postJSON('plot/modifypermissions', true, false, query);
 }
 
+// Control Game
+export * from './resources/ControlGame';
+
 // Game Data
 export * from './resources/GameData';
 
