@@ -12,5 +12,14 @@ declare enum archetype {
     HEALER = 4,
     MELEECOMBATTEST = 5,
     ARCHERTEST = 6,
+    BLACKKNIGHT = 7,
+    FIANNA = 8,
+    MJOLNIR = 9,
+    PHYSICIAN = 10,
+    EMPATH = 11,
+    STONEHEALER = 12,
+    BLACKGUARD = 13,
+    FORESTSTALKER = 14,
+    WINTERSSHADOW = 15,
 }
 export default archetype;
